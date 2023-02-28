@@ -5,7 +5,15 @@
 }
 
 body {
-    width:40%;
+    max-width:40%;
     height: 100vh;
     margin: 30px auto;
+}
+
+@media screen and (min-width: 1921px) {
+    body {
+        max-width:30%;
+        height: 100vh;
+        margin: 30px auto;
+    }
 }

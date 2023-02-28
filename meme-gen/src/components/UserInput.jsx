@@ -2,13 +2,13 @@ import React from 'react';
 
 const UserInput = () => {
     return(
-        <div className='user-input-container'>
+        <form className='user-input-container'>
             <div className='meme-texts'>
-                <input className='input-text-box' type='text'/>
-                <input className='input-text-box' type='text'/>
+                <input className='input-text-box' type='text' placeholder='Top Text'/>
+                <input className='input-text-box' type='text' placeholder='Bottom Text'/>
             </div>
             <button className='get-image'>Get a new meme image</button>
-        </div>
+        </form>
     )
 }
 

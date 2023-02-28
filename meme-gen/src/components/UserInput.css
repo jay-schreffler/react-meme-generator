@@ -15,7 +15,7 @@
 
 .input-text-box {
     height: 40px;
-    width: 360px;
+    min-width: 360px;
     border: 1px solid gray;
     border-radius: 5px;
 }
